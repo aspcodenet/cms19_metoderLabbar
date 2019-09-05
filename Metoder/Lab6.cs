@@ -23,8 +23,8 @@ namespace Metoder
         int KontrolleraMaxvarde(int tal1, int tal2, int tal3)
         {
             if (tal1 == 0) return Maxvarde2(tal2, tal3);
-            if (tal2 == 0) return Maxvarde2(tal1, tal3);
-            if (tal3 == 0) return Maxvarde2(tal1, tal2);
+            else if (tal2 == 0) return Maxvarde2(tal1, tal3);
+            else if (tal3 == 0) return Maxvarde2(tal1, tal2);
             return Maxvarde3(tal1,tal2,tal3);
         }
 

@@ -12,6 +12,11 @@ namespace Metoder
         //var lab3 = new Lab3();
         //string result = lab3.PlussaStringar("hej", "heopp");
 
+        public string PlussaStringar(string s1, int s2)
+        {
+            return s1 + s2.ToString();
+        }
+
         public string PlussaStringar(string s1, string s2)
         {
             return s1 + s2;

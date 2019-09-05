@@ -8,8 +8,64 @@ namespace Metoder
 {
     class Program
     {
+
+        class Dog
+        {
+            public string Namn;
+            public void Sound()
+            {
+                Console.WriteLine("Voff jag heter {Namn}");
+            }
+            static public bool IsAnimal()
+            {
+                return true;
+            }
+        }
+
+        class Hus
+        {
+            public string FasadColor;
+            public int AntalRum;
+            public bool HasBeenRepainted;
+
+            public void Repaint(string newColor)
+            {
+                FasadColor = newColor;
+                HasBeenRepainted = true;
+            }
+        }
+
         static void Main(string[] args)
         {
+            var lab = new Lab1();
+            lab.Run();
+
+            var l2 = new Lab2();
+            l2.ToPercentage(0.12m);
+
+            var mittHus = new Hus();
+            mittHus.AntalRum = 3;
+            mittHus.FasadColor = "Blue";
+
+            var syrransHus = new Hus();
+            syrransHus.AntalRum = 5;
+            syrransHus.FasadColor = "Red";
+
+            mittHus.Repaint("Green");
+
+
+            var dog1 = new Dog();
+            dog1.Namn = "Karo";
+            Console.WriteLine(Dog.IsAnimal());
+
+            var dog2 = new Dog();
+            dog2.Namn = "Pluto";
+
+
+
+
+
+
             var labben = new Lab10();
             labben.Run();
 
@@ -47,8 +103,6 @@ namespace Metoder
             lab5.Run();
 
 
-            var lab = new Lab1();
-            lab.Run();
         }
     }
 }

@@ -19,9 +19,9 @@ namespace Metoder
         int Multiply(int[] tal)
         {
             if (tal.Length == 0) return 0;
-            int summa = tal[0];
-            for (int i = 1; i < tal.Length; i++)
-                summa *= tal[i];
+            int summa = 1;
+            foreach (var t in tal)
+                summa *= t;
             return summa;
         }
 

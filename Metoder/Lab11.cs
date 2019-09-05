@@ -19,7 +19,7 @@ namespace Metoder
 
         private void Method(out int n1, ref int n2)
         {
-            n1 = 12;
+            n1 = 231231;
         }
     }
 }
