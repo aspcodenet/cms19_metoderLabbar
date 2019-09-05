@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder", "Metoder\Metoder.csproj", "{CFAC3EFA-42F0-4ED5-9C06-E9F5BB101666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFAC3EFA-42F0-4ED5-9C06-E9F5BB101666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAC3EFA-42F0-4ED5-9C06-E9F5BB101666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAC3EFA-42F0-4ED5-9C06-E9F5BB101666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAC3EFA-42F0-4ED5-9C06-E9F5BB101666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFC729C8-7E03-41FD-9B33-6FE8055E9DA4}
+	EndGlobalSection
+EndGlobal
